@@ -1,5 +1,5 @@
 theme: jekyll-theme-hacker
 title: Сайт первого русского канала про BI
 description: Любительский канал двух Microsft Data Platform MVP - Максима Зеленского и Максима Уварова
-show_downloads: false
+show_downloads: "false"
 google_analytics: UA-135888392-1
