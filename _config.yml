@@ -1,5 +1,5 @@
 theme: jekyll-theme-hacker
 title: BI-TV.ru, проект первого русского канала про Power BI 
 description: Ведущие Максим Зеленский и Максим Уваров, оба Microsft Data Platform MVP
-show_downloads: false
+show_downloads: "false"
 google_analytics: UA-135888392-1
