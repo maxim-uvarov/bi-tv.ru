@@ -25,7 +25,7 @@ url: "https://power-bi.github.io/bi-tv.ru/" # the base hostname & protocol for y
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: minimal
 plugins:
   - jekyll-feed
 
