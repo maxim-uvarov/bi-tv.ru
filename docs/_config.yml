@@ -27,7 +27,14 @@ url: "https://power-bi.github.io/bi-tv.ru/" # the base hostname & protocol for y
 markdown: kramdown
 theme: minimal
 plugins:
-  - jekyll-feed
+ - jekyll-feed
+ - jekyll-redirect-from
+ - jekyll-seo-tag
+ - jekyll-sitemap
+ - jekyll-avatar
+ - jemoji
+ - jekyll-mentions
+ - jekyll-include-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
