@@ -83,6 +83,14 @@ footer:
       url: "https://github.com/Power-BI"
 
 
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "UA-135888392-1"
+    anonymize_ip: false # default
+
+
+
 defaults:
   # _posts
   - scope:

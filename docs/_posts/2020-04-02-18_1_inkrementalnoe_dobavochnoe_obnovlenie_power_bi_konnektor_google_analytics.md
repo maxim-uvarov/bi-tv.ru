@@ -2,10 +2,9 @@
 title: "BI-TV #18-1 - Инкрементальное (добавочное) обновление Power BI - Коннектор Google Analytics"
 date: 2020-04-02
 categories:
-  - blog
+  - Video
 tags:
-  - Jekyll
-  - update
+  - Power BI
 ---
 
 Видео Максима Уварова про использование инкрементального обновления со встроенным в Power BI коннектором Google Analytics. 
