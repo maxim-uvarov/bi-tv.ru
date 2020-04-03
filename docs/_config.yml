@@ -86,7 +86,7 @@ footer:
 analytics:
   provider: "google-gtag"
   google:
-    tracking_id: "UA-135888392-1"
+    tracking_id: "GTM-5CJVQ3B"
     anonymize_ip: false # default
 
 
