@@ -16,7 +16,7 @@
 title: BI-TV.ru 
 email: bi-tv@40-02.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Ролики про Power BI от Максима Зеленского, Максима Уварова и других.
+  Ролики про Power BI от Максима Уварова, Максима Зеленского и других.
   Во благо мира!
 twitter_username: bi_tv_ru
 github_username: Power-BI
@@ -57,13 +57,13 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Максим Зеленский и Максим Уваров"
+  name   : "Максим Уваров и Максим Зеленский"
 #  avatar : "/assets/images/bio-photo.jpg"
   bio    : "Наши видео про Power BI."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://"
+      url: "https://bi-tv.ru"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/BI_tv_ru"
