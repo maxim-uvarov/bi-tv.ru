@@ -59,7 +59,7 @@ plugins:
 
 author:
   name   : "Максим Уваров и Максим Зеленский"
-  avatar : "/assets/images/bio-photo.jpg"
+#  avatar : "/assets/images/bio-photo.jpg"
   bio    : "Наши видео про Power BI."
   links:
     - label: "Website"
