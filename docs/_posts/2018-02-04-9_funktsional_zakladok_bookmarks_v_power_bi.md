@@ -1,5 +1,5 @@
 ---
-title: "BI-TV #9: Функционал закладок (bookmarks) в Power BI"
+title: "BI-TV #9 + Даниил Маслюк: Функционал закладок (bookmarks) в Power BI"
 date: 2018-02-04
 categories:
   - Video
