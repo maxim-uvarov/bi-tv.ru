@@ -89,6 +89,9 @@ analytics:
     tracking_id: "GTM-5CJVQ3B"
     anonymize_ip: false # default
 
+facebook:
+  app_id:  # A Facebook app ID
+  publisher: https://www.facebook.com/bitvru/
 
 
 defaults:
