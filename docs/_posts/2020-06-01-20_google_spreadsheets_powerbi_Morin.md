@@ -1,7 +1,8 @@
 ---
 title: "BI-TV #20 - Получение данных в Power BI из таблиц Google Spreadsheets с авторизацией"
 date: 2020-06-01
-og_image: /assets/images/_20.png
+header:
+  og_image: /assets/images/_20.png
 categories:
   - Video
 tags:
