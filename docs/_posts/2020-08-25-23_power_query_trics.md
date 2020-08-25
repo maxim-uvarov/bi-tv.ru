@@ -2,7 +2,7 @@
 title: "BI-TV #23: Редактирование кода скриптов Power Query в VS Code - решение Ben Gribaudo:"
 date: 2020-06-13
 header:
-//  og_image: /assets/images/_22.png
+  og_image: /assets/images/_22.png
 categories:
   - Video
 tags:
@@ -64,6 +64,6 @@ function Edit-DataMashup {
 
 
 
-/*
+<!--
 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/ShOfVylvAbM' frameborder='0' allowfullscreen></iframe></div>
-*/
+-->
