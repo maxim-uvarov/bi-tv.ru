@@ -9,18 +9,20 @@ tags:
   - Power BI
 ---
 Редактирование кода скриптов Power Query в VS Code - решение Ben Gribaudo:
-[https://bengribaudo.com/blog/2020/07/16/5356/editing-report-spreadsheet-mashups-in-vscode#more-5356]
+[https://bengribaudo.com/blog/2020/07/16/5356/editing-report-spreadsheet-mashups-in-vscode#more-5356](https://bengribaudo.com/blog/2020/07/16/5356/editing-report-spreadsheet-mashups-in-vscode#more-5356)
 
-3. Устанавливаем VS Code [https://code.visualstudio.com/Download]
+3. Устанавливаем VS Code [https://code.visualstudio.com/Download](https://code.visualstudio.com/Download)
 4. В VS Code устанавливаем расширение "Power Query / M Language" (ctrl+shift+P - установить расширение - вводим название)
-1. Устанавливаем PowerShell Core 7 c github: [https://github.com/powershell/powershell#get-powershell]
+1. Устанавливаем PowerShell Core 7 c github: [https://github.com/powershell/powershell#get-powershell](https://github.com/powershell/powershell#get-powershell)
 2. Чтобы заработала возможность установки скриптов из галереи используем команду 
 ```
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 ```
 Решение найдено [здесь](https://www.myerrorsandmysolutions.com/unable-to-resolve-package-source-https-www-powershellgallery-com-api-v2/)
 5. Устанавливаем Data Mashup Cmdlet, для этого вводим PowerShell Core 7 команду: 
-```Install-Module -Name DataMashup -AllowPrerelease'```
+```
+Install-Module -Name DataMashup -AllowPrerelease'
+```
 6. В скрипте функции заменяем code.exe на путь до VS Code на вашем компьютере:
 ```
 function Edit-DataMashup {
