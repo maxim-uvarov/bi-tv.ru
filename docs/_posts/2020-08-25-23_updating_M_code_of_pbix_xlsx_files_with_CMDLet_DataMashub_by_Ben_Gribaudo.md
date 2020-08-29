@@ -1,8 +1,8 @@
 ---
-title: "BI-TV #23: Редактирование кода скриптов Power Query в VS Code - решение Ben Gribaudo:"
+title: "BI-TV #23: Редактирование кода скриптов Power Query в VS Code - решение Ben Gribaudo"
 date: 2020-06-13
 header:
-  og_image: /assets/images/_22.png
+  og_image: /assets/images/_23.png
 categories:
   - Video
 tags:
@@ -59,8 +59,20 @@ function Edit-DataMashup {
     }
 }
 ```
-7. Редактируем код Power Query XLSX и PBI файлов в VS Code командой:
-`Edit-DataMashup SomeFile.xlsx`
+7. Создаем файл Profile, чтобы положить в него функцию, чтобы после перезапуска Power Shell она была доступна
+```
+if (!(Test-Path -Path $PROFILE)) {
+>>   New-Item -ItemType File -Path $PROFILE -Force
+>> }
+```
+8. Открываем файл Profile, вставляем в него функцию из шага 6.
+```
+notepad $PROFILE
+```
+9. Перезапускаем PowerShell 7
+
+10. Редактируем код Power Query XLSX и PBI файлов в VS Code командой:
+```Edit-DataMashup SomeFile.xlsx```
 
 
 
