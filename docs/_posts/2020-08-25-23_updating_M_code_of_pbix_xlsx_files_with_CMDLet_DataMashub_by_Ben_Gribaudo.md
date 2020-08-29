@@ -65,7 +65,7 @@ if (!(Test-Path -Path $PROFILE)) {
 >>   New-Item -ItemType File -Path $PROFILE -Force
 >> }
 ```
-8. Открываем файл Profile, вставляем в него функцию из шага 6.
+8. Открываем файл Profile командой ниже, вставляем в notepad функцию из шага 6, сохраняем файл.
 ```
 notepad $PROFILE
 ```
