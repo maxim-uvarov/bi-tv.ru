@@ -21,7 +21,7 @@ tags:
 Решение найдено [здесь](https://www.myerrorsandmysolutions.com/unable-to-resolve-package-source-https-www-powershellgallery-com-api-v2/)
 5. Устанавливаем Data Mashup Cmdlet, для этого вводим PowerShell Core 7 команду: 
 ```
-Install-Module -Name DataMashup -AllowPrerelease'
+Install-Module -Name DataMashup -AllowPrerelease
 ```
 6. В скрипте функции заменяем code.exe на путь до VS Code на вашем компьютере:
 ```
