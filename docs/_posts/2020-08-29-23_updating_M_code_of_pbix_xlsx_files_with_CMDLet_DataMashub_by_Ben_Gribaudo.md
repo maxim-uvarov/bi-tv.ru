@@ -62,8 +62,8 @@ function Edit-DataMashup {
 7. Создаем файл Profile, чтобы положить в него функцию, чтобы после перезапуска Power Shell она была доступна
 ```
 if (!(Test-Path -Path $PROFILE)) {
->>   New-Item -ItemType File -Path $PROFILE -Force
->> }
+   New-Item -ItemType File -Path $PROFILE -Force
+ }
 ```
 8. Открываем файл Profile командой ниже, вставляем в notepad функцию из шага 6, сохраняем файл.
 ```
