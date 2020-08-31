@@ -1,6 +1,6 @@
 ---
 title: "BI-TV #23: Редактирование кода скриптов Power Query в VS Code - решение Ben Gribaudo"
-date: 2020-06-13
+date: 2020-08-31
 header:
   og_image: /assets/images/_23.png
 categories:
@@ -11,69 +11,87 @@ tags:
 Редактирование кода скриптов Power Query в VS Code - решение Ben Gribaudo:
 [https://bengribaudo.com/blog/2020/07/16/5356/editing-report-spreadsheet-mashups-in-vscode#more-5356](https://bengribaudo.com/blog/2020/07/16/5356/editing-report-spreadsheet-mashups-in-vscode#more-5356)
 
-3. Устанавливаем VS Code [https://code.visualstudio.com/Download](https://code.visualstudio.com/Download)
-4. В VS Code устанавливаем расширение "Power Query / M Language" (ctrl+shift+P - установить расширение - вводим название)
-1. Устанавливаем PowerShell Core 7 c github: [https://github.com/powershell/powershell#get-powershell](https://github.com/powershell/powershell#get-powershell)
-2. Чтобы заработала возможность установки скриптов из галереи используем команду 
-```
-[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
-```
-Решение найдено [здесь](https://www.myerrorsandmysolutions.com/unable-to-resolve-package-source-https-www-powershellgallery-com-api-v2/)
-5. Устанавливаем Data Mashup Cmdlet, для этого вводим PowerShell Core 7 команду: 
-```
-Install-Module -Name DataMashup -AllowPrerelease
-```
-6. В скрипте функции заменяем code.exe на путь до VS Code на вашем компьютере:
-```
-function Edit-DataMashup {
-    param (
-        [Parameter(Mandatory=$True, Position=0)]
-        [string]$File
-    )
-   
-    $originalMashup = Export-DataMashup -Raw $File -ErrorAction Stop
+1. Устанавливаем VS Code [https://code.visualstudio.com/Download](https://code.visualstudio.com/Download)
+
+2. В VS Code устанавливаем расширение "Power Query / M Language" (ctrl+shift+P - установить расширение - вводим название)
+
+3. Устанавливаем PowerShell Core 7 c github: [https://github.com/powershell/powershell#get-powershell](https://github.com/powershell/powershell#get-powershell)
+
+4. Чтобы заработала возможность установки скриптов из галереи используем команду
+
+    ```
+    [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+    ```
+
+    Решение найдено [здесь](https://www.myerrorsandmysolutions.com/unable-to-resolve-package-source-https-www-powershellgallery-com-api-v2/)
+
+5. Устанавливаем Data Mashup Cmdlet, для этого вводим PowerShell Core 7 команду:
+
+    ```
+    Install-Module -Name DataMashup -AllowPrerelease
+    ```
+
+6. В скрипте функции заменяем code на путь до VS Code на вашем компьютере:
+
+    ```
+    function Edit-DataMashup {
+        param (
+            [Parameter(Mandatory=$True, Position=0)]
+            [string]$File
+        )
        
-    $tempFile = New-TemporaryFile -ErrorAction Stop
-       
-    try {
-        $tempFile = Rename-Item $tempFile ($tempFile.Name + ".m") -PassThru -ErrorAction Stop
-   
-        $originalMashup | Out-File $tempFile -NoNewline -ErrorAction Stop
-        Start-Process "code.exe" "`"$($tempFile)`"" -Wait 
-        $postEditMashup = Get-Content $tempFile -Raw -ErrorAction Stop
+        $originalMashup = Export-DataMashup -Raw $File -ErrorAction Stop
            
-        if ($originalMashup -eq $postEditMashup) { 
+        $tempFile = New-TemporaryFile -ErrorAction Stop
+           
+        try {
+            $tempFile = Rename-Item $tempFile ($tempFile.Name + ".m") -PassThru -ErrorAction Stop
+       
+            $originalMashup | Out-File $tempFile -NoNewline -ErrorAction Stop
+            Start-Process "code" "`"$($tempFile)`"" -Wait 
+            $postEditMashup = Get-Content $tempFile -Raw -ErrorAction Stop
+               
+            if ($originalMashup -eq $postEditMashup) { 
+                $successful = $true
+                return
+            }
+               
+            Import-DataMashup -Raw $File -Experimental -Mashup $postEditMashup -ErrorAction Stop
             $successful = $true
-            return
+        }   
+        finally {
+            if ($successful -ne $true) {
+                Write-Error "Failed to Save Modified Power Query mashup:`r`n$($postEditMashup)"
+            }
+          
+            Remove-Item $tempFile
         }
-           
-        Import-DataMashup -Raw $File -Experimental -Mashup $postEditMashup -ErrorAction Stop
-        $successful = $true
-    }   
-    finally {
-        if ($successful -ne $true) {
-            Write-Error "Failed to Save Modified Power Query mashup:`r`n$($postEditMashup)"
-        }
-      
-        Remove-Item $tempFile
     }
-}
-```
+
+    ```
+
 7. Создаем файл Profile, чтобы положить в него функцию, чтобы после перезапуска Power Shell она была доступна
-```
-if (!(Test-Path -Path $PROFILE)) {
-   New-Item -ItemType File -Path $PROFILE -Force
- }
-```
+
+    ```
+    if (!(Test-Path -Path $PROFILE)) {
+       New-Item -ItemType File -Path $PROFILE -Force
+     }
+    ```
+
 8. Открываем файл Profile командой ниже, вставляем в notepad функцию из шага 6, сохраняем файл.
-```
-notepad $PROFILE
-```
+
+    ```
+    notepad $PROFILE
+
+    ```
+
 9. Перезапускаем PowerShell 7
 
 10. Редактируем код Power Query XLSX и PBI файлов в VS Code командой:
-```Edit-DataMashup SomeFile.xlsx```
 
+    ```
+    Edit-DataMashup SomeFile.xlsx
+    ```
 
 
 <!--
