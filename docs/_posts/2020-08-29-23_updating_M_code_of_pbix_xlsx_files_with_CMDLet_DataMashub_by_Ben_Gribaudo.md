@@ -12,7 +12,7 @@ tags:
 Редактирование кода скриптов Power Query в VS Code - решение Ben Gribaudo:
 [https://bengribaudo.com/blog/2020/07/16/5356/editing-report-spreadsheet-mashups-in-vscode#more-5356](https://bengribaudo.com/blog/2020/07/16/5356/editing-report-spreadsheet-mashups-in-vscode#more-5356)
 
-1. Устанавливаем VS Code [https://code.visualstudio.com/Download](https://code.visualstudio.com/Download). При установке ставим галку ["Add to Path"](https://s3-eu-central-1.amazonaws.com/nfd/PublicSharebales/addtopath-1598852869.png)
+1. Устанавливаем VS Code [https://code.visualstudio.com/Download](https://code.visualstudio.com/Download). При установке ставим галку ["Add to Path"](https://s3-eu-central-1.amazonaws.com/nfd/PublicSharebales/addtopath-1598852869.png).
 
 2. В VS Code устанавливаем расширение "Power Query / M Language" (ctrl+shift+P - установить расширение - вводим название).
 
