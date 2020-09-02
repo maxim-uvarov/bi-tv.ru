@@ -32,7 +32,7 @@ tags:
 
     Решение найдено [здесь](https://www.myerrorsandmysolutions.com/unable-to-resolve-package-source-https-www-powershellgallery-com-api-v2/).
 
-6. В скрипте функции заменяем code на путь до VS Code на вашем компьютере:
+5. В скрипте функции заменяем code на путь до VS Code на вашем компьютере:
 
     ```
     function Edit-DataMashup {
@@ -94,6 +94,5 @@ tags:
     ```
 
 
-<!--
-<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/ShOfVylvAbM' frameborder='0' allowfullscreen></iframe></div>
--->
+
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/XY7qf1wlgyUп' frameborder='0' allowfullscreen></iframe></div>
