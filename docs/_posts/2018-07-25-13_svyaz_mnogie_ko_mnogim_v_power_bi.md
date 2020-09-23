@@ -1,5 +1,5 @@
 ---
-title: "BI-TV #13: Связь ""Многие-ко-Многим"" в Power BI"
+title: "BI-TV #13: Связь 'Многие-ко-Многим' в Power BI"
 date: 2018-07-25
 categories:
   - Video
