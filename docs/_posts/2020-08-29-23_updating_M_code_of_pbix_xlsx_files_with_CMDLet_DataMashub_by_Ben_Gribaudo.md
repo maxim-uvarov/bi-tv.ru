@@ -7,6 +7,7 @@ categories:
   - Video
 tags:
   - Power BI
+description: Видео и инструкция про массовое редактирование скриптов Power Query с помощью CMDlet от Ben Gribaudo.
 ---
 <!-- markdownlint-disable MD040 MD013 -->
 Редактирование кода скриптов Power Query в VS Code - решение Ben Gribaudo:
