@@ -1,5 +1,5 @@
 ---
-title: "BI-TV #24: Tabular Editor (ч.1) с Даниилом Маслюком"
+title: "BI-TV #24: Tabular Editor с Даниилом Маслюком (ч.1)"
 date: 2020-10-23
 header:
   og_image: /assets/images/_24.png
@@ -16,7 +16,7 @@ description: Первое видео про мощнейший редактор 
 
 - Calculation Groups
 - Массовое редактирование мер
-- Best Pracitces checker
+- Best Practices checker
 
 {% include video id="nn668nEPEK0" provider="youtube" %}
 
