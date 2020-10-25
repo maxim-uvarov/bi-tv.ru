@@ -10,13 +10,20 @@ tags:
 description: Первое видео про мощнейший редактор для Power BI - Tabular Editor. Видео с Даниилом Маслюком.
 ---
 <!-- markdownlint-disable MD040 MD013 -->
-Первый русскоязычный обзор возможностей Tabular Editor в применении к Power BI!
+Первый русскоязычный обзор возможностей [Tabular Editor](https://tabulareditor.com/) в применении к Power BI!
 
 В видео рассмотрели:
 
 - Calculation Groups
 - Массовое редактирование мер
 - Best Practices checker
+
+Ссылки из видео:
+- [Best Practice JSON URL](https://raw.githubusercontent.com/TabularEditor/BestPracticeRules/master/BPARules-PowerBI.json)
+
+- [Advanced scripting](https://github.com/otykier/tabulareditor/wiki/useful-script-snippets)
+
+Спасибо Ярославу Тихонову, за то что напомнил про ссылки. 
 
 {% include video id="nn668nEPEK0" provider="youtube" %}
 
