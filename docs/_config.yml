@@ -20,6 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Во благо мира!
 twitter_username: bi_tv_ru
 github_username: Power-BI
+telegram_username: PowerBIChannel
 minimal_mistakes_skin: default
 search: true
 locale: "ru"
