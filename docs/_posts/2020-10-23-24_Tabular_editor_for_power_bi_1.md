@@ -19,11 +19,11 @@ description: Первое видео про мощнейший редактор 
 - Best Practices checker
 
 Ссылки из видео:
-- [Best Practice JSON URL](https://raw.githubusercontent.com/TabularEditor/BestPracticeRules/master/BPARules-PowerBI.json)
 
+- [Best Practice JSON URL](https://raw.githubusercontent.com/TabularEditor/BestPracticeRules/master/BPARules-PowerBI.json)
 - [Advanced scripting](https://github.com/otykier/tabulareditor/wiki/useful-script-snippets)
 
-Спасибо Ярославу Тихонову, за то что напомнил про ссылки. 
+Спасибо Ярославу Тихонову, за то что напомнил про ссылки.
 
 {% include video id="nn668nEPEK0" provider="youtube" %}
 
