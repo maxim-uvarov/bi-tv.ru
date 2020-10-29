@@ -13,6 +13,11 @@ description: EditExcelPQM - плагин для Visual Studio Code, позвол
 <!-- markdownlint-disable MD040 MD013 -->
 В этом видео душевно поговорили с Александром Малановым про бытность разработки на Power Query и про его плагин для Visual Studio Code - EditExcelPQM.
 
+Ссылки:
+
+- [Расширение EditExcelPQM](https://marketplace.visualstudio.com/items?itemName=AMalanov.editexcelpqm)
+- [Ссылка на репозиторий, где можно оставлять обратную связь](https://github.com/amalanov/EditExcelPQM)
+
 {% include video id="gmB_EkrvY0c" provider="youtube" %}
 
 P.S. Подписывайтесь на наш телеграм канал: [https://t.me/PowerBIChannel](https://t.me/PowerBIChannel)
