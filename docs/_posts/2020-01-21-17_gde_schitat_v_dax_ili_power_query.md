@@ -5,8 +5,9 @@ categories:
   - Video
 tags:
   - Power BI
-  - Модель данных
-  - Павел Левчук
+  - Data Model
+  - Power Query
+  - Paul Levchuk
 ---
 
 Длинное видео в режиме разговоров на тему Power BI. К нам в гости пришел Паша Левчук и понеслось...

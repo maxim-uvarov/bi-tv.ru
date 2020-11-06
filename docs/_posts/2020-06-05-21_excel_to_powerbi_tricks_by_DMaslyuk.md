@@ -7,7 +7,7 @@ categories:
   - Video
 tags:
   - Power BI
-  - Даниил Маслюк
+  - Daniil Maslyuk
   - Excel
 ---
 

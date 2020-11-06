@@ -8,7 +8,7 @@ categories:
 tags:
   - Excel
   - Power Query
-  - Александр Маланов
+  - Alexander Malanov
 description: EditExcelPQM - плагин для Visual Studio Code, позволяющий разом извлечь и запаковать обратно код M из XLSX файлов
 ---
 <!-- markdownlint-disable MD040 MD013 -->

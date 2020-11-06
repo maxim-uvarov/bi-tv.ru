@@ -5,7 +5,7 @@ categories:
   - Video
 tags:
   - Power BI
-  - Инкрементальное обновление
+  - Incremental refresh
   - Power BI Service
 ---
 

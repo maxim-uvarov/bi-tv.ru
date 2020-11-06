@@ -7,7 +7,7 @@ categories:
   - Video
 tags:
   - Power BI
-  - Александр Морин
+  - Alexander Morin
   - Power Query
 ---
 
