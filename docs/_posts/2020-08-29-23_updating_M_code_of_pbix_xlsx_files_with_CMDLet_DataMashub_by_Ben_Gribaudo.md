@@ -7,6 +7,9 @@ categories:
   - Video
 tags:
   - Power BI
+  - Ben Gribaudo
+  - Power Query
+  - Visual Studio Code
 description: Видео и инструкция про массовое редактирование скриптов Power Query с помощью CMDlet от Ben Gribaudo.
 ---
 <!-- markdownlint-disable MD040 MD013 -->

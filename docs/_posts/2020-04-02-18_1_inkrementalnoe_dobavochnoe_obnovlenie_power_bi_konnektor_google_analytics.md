@@ -5,6 +5,8 @@ categories:
   - Video
 tags:
   - Power BI
+  - Инкрементальное обновление
+  - Power BI Service
 ---
 
 Видео Максима Уварова про использование инкрементального обновления со встроенным в Power BI коннектором Google Analytics. 
