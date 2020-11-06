@@ -8,6 +8,7 @@ categories:
 tags:
   - Power BI
   - Tabular Editor
+  - Даниил Маслюк
 description: Первое видео про мощнейший редактор для Power BI - Tabular Editor. Видео с Даниилом Маслюком.
 ---
 <!-- markdownlint-disable MD040 MD013 -->
