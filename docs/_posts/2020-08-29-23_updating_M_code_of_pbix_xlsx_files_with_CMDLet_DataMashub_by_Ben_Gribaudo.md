@@ -98,10 +98,29 @@ description: Видео и инструкция про массовое реда
     ```
 
 
+### Дополнение от Ярослава Тихонова:
+
+Открываем папку в проводнике
+%AppData%\Microsoft\Windows\SendTo\
+
+Создаем текстовый файл. Название файла - это название операции, лучше выбрать что-то вроде Edit M Code. В файле прописываем текст
+
+    ```
+    Dim objShell
+    Set objShell = WScript.CreateObject( "WScript.Shell" )
+    objShell.Run("pwsh -command " & chr(34) & "Edit-DataMashup " & chr(39) & WScript.Arguments(0) & chr(39) & chr(34))
+    Set objShell = Nothing
+    ```
+
+Сохраняем. Закрываем. Меняем расширение на vbs.
+
+Теперь можно щелкнуть правой кнопкой мыши и в группе Отправить будет пункт с редактированием M кода
 
 
 
 {% include video id="XY7qf1wlgyU" provider="youtube" %}
+
+{% include video id="-HTdAbtPG7I" provider="youtube" %}
 
 <!--  
 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/XY7qf1wlgyU' frameborder='0' allowfullscreen></iframe></div>

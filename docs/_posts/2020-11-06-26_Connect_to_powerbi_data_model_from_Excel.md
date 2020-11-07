@@ -13,7 +13,7 @@ description: В новом выпуске Максим Зеленский рас
 <!-- markdownlint-disable MD040 MD013 -->
 В новом выпуске Максим Зеленский рассказывает о своем решении по созданию обновляемых подключений к локальной модели данных Power BI.
 
-Документация и файл с программаи лежит на [github](https://github.com/hohlick/PBIDesktopExternalTools/tree/main/CreateODCforCurrentPBIX)
+Документация и необходимые файлы лежат на [github](https://github.com/hohlick/PBIDesktopExternalTools/tree/main/CreateODCforCurrentPBIX).
 
 {% include video id="Z7tKvN-qu58" provider="youtube" %}
 
