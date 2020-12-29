@@ -19,7 +19,7 @@ description: Calculation Groups в Power BI и второе видео про м
 Ссылка facebook на упомянутого в видео [Илью Шелегина](https://www.facebook.com/ilya.shelegin). Кстати, у нас с ним уже был [выпуск 22](https://bi-tv.ru/video/22_power_bi_report_server_by_Ilya_Shelegin/) и скоро, надеемся, будут новые. 
 
 
-{% include video id="nn668nEPEK0" provider="youtube" %}
+{% include video id="6jBVBLTPYog" provider="youtube" %}
 
 P.S. Подписывайтесь на наш телеграм канал: [https://t.me/PowerBIChannel](https://t.me/PowerBIChannel), присоединяйтесь к [группе в facebook](https://www.facebook.com/groups/powerBiForever), вступайте в [телеграм чатик](https://t.me/PBI_Rus/)
 
