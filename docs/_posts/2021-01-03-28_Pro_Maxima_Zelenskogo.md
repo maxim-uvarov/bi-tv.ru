@@ -1,5 +1,5 @@
 ---
-title: "BI-TV #28: Звезды Power BI Рунета: Максим Зеленский"
+title: "BI-TV #28: Звезды Power BI рунета: Максим Зеленский"
 date: 2020-12-30
 header:
   og_image: /assets/images/_28.png
