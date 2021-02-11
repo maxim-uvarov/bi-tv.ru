@@ -1,12 +1,11 @@
 ---
-title: "BI-TV #28: Звезды Power BI рунета: Максим Зеленский"
+title: "BI-TV #28: Звезды Power BI рунета - Максим Зеленский"
 date: 2021-02-05
 header:
   og_image: /assets/images/_28.png
 categories:
   - Video
 tags:
-  - Talk-show
   - Maxim Zelenskiy
 description: BI-TV в режиме talk show про историю Максима Зеленского: становление, мотивация, планы.
 ---
