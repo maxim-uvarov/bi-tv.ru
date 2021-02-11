@@ -7,7 +7,7 @@ categories:
   - Video
 tags:
   - Maxim Zelenskiy
-description: BI-TV в режиме talk show про историю Максима Зеленского: становление, мотивация, планы.
+description: "BI-TV в режиме talk show про историю Максима Зеленского: становление, мотивация, планы."
 ---
 
 Максим Зеленский один из ключевых и самых эрудированных участников [профессионального сообщества по Power BI в Facebook](https://www.facebook.com/groups/powerBiForever) и тематической [группы в Telegram](https://t.me/PBI_Rus/). 
