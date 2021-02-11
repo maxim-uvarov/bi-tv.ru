@@ -1,6 +1,6 @@
 ---
 title: "BI-TV #28: Звезды Power BI рунета: Максим Зеленский"
-date: 2020-12-30
+date: 2021-02-05
 header:
   og_image: /assets/images/_28.png
 categories:
