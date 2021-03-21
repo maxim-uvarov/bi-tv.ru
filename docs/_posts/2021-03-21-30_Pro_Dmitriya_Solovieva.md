@@ -18,11 +18,9 @@ description: "BI-TV в режиме talk show про историю Дмитри
 
 - https://www.daxpatterns.com/
 - https://www.sqlbi.com/
-
-[Книга: Равив Г. Power Query в Excel и Power BI: сбор, обьединение и преобразование данных](https://www.ozon.ru/product/power-query-v-excel-i-power-bi-sbor-obedinenie-i-preobrazovanie-dannyh-231611763/
+- [Книга: Равив Г. Power Query в Excel и Power BI: сбор, обьединение и преобразование данных](https://www.ozon.ru/product/power-query-v-excel-i-power-bi-sbor-obedinenie-i-preobrazovanie-dannyh-231611763/
  https://powerbi.microsoft.com/ru-ru/learning/)
-
-[Книга: M Is for (Data) Monkey: A Guide to the M Language in Excel Power Query](https://www.amazon.com/Data-Monkey-Guide-Language-Excel/dp/1615470344)
+- [Книга: M Is for (Data) Monkey: A Guide to the M Language in Excel Power Query](https://www.amazon.com/Data-Monkey-Guide-Language-Excel/dp/1615470344)
 
 
 {% include video id="j-_WSANBN1U" provider="youtube" %}
