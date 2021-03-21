@@ -6,13 +6,13 @@ header:
 categories:
   - Video
 tags:
-  - Dmitriy Soloviev
+  - Dmitrii Solovev
   - Maxim Zelenskiy
   - Maxim Uvarov
 description: "BI-TV в режиме talk show про историю Дмитрия Соловьева: становление, мотивация, планы."
 ---
 
-В гостях Дмитрий Соловьев, активный участник [группы в facebook](https://www.facebook.com/groups/powerBiForever), [чатика в телеграме](https://t.me/PBI_Rus/), [сооснователь databear](https://databear.com/), преподаватель проекта [iqbi.com](https://iqbi.pro/). 
+В гостях Дмитрий Соловьев, Data Platoform MVP, активный участник [группы в facebook](https://www.facebook.com/groups/powerBiForever), [чатика в телеграме](https://t.me/PBI_Rus/), сооснователь [databear](https://databear.com/), преподаватель проекта [iqbi.pro](https://iqbi.pro/), автор [youtube канала](https://youtube.com/c/IQBIschool), автор [блога](http://powerofbi.ru). 
 
 Ссылки упомянутые в видео:
 
