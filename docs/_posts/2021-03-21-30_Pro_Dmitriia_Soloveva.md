@@ -12,7 +12,7 @@ tags:
 description: "BI-TV в режиме talk show про историю Дмитрия Соловьева: становление, мотивация, планы."
 ---
 
-В гостях Дмитрий Соловьев, Data Platoform MVP, активный участник [группы в facebook](https://www.facebook.com/groups/powerBiForever), [чатика в телеграме](https://t.me/PBI_Rus/), сооснователь [databear](https://databear.com/), преподаватель проекта [iqbi.pro](https://iqbi.pro/), автор [youtube канала](https://youtube.com/c/IQBIschool), автор [блога](http://powerofbi.ru). 
+В гостях Дмитрий Соловьев, Data Platform MVP, активный участник [группы в facebook](https://www.facebook.com/groups/powerBiForever), [чатика в телеграме](https://t.me/PBI_Rus/), сооснователь [databear](https://databear.com/), преподаватель проекта [iqbi.pro](https://iqbi.pro/), автор [youtube канала](https://youtube.com/c/IQBIschool), автор [блога](http://powerofbi.ru). 
 
 Ссылки упомянутые в видео:
 
@@ -23,7 +23,7 @@ description: "BI-TV в режиме talk show про историю Дмитри
 - [Книга: M Is for (Data) Monkey: A Guide to the M Language in Excel Power Query](https://www.amazon.com/Data-Monkey-Guide-Language-Excel/dp/1615470344)
 
 
-{% include video id="j-_WSANBN1U" provider="youtube" %}
+{% include video id="DtbFa8gjaQ0" provider="youtube" %}
 
 P.S. Подписывайтесь на наш телеграм канал: [https://t.me/PowerBIChannel](https://t.me/PowerBIChannel), присоединяйтесь к [группе в facebook](https://www.facebook.com/groups/powerBiForever), вступайте в [телеграм чатик](https://t.me/PBI_Rus/)
 
