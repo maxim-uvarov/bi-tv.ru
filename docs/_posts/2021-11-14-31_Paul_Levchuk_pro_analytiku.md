@@ -1,18 +1,20 @@
 ---
 title: "BI-TV #31: Павел Левчук: о жизни, аналитике и полстакана воды"
-date: 2021-03-21
+date: 2021-11-14
 header:
   og_image: /assets/images/_31.png
 categories:
   - Video
+  - Podcast
 tags:
   - Paul Levchuk
   - Maxim Zelenskiy
   - Maxim Uvarov
+  - Talkshow 
 description: "Первый подкаст BI-TV с разговором мыслями Павла Левчка об аналитическом ремесле."
 ---
 
-Ссылка на блог Павла: https://ecommerce-in-ukraine.blogspot.com/
+Ссылка на блог Павла: [https://ecommerce-in-ukraine.blogspot.com/](https://ecommerce-in-ukraine.blogspot.com/)
 
 
 {% include video id="7gYx0zWCEoo" provider="youtube" %}
