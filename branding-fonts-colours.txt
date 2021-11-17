@@ -1,0 +1,5 @@
+Fonts: Tahoma, Avenir next, Montserrat
+
+Colours: 
+  Dark:   181	138	62	
+  Bright: 231	186	90	
