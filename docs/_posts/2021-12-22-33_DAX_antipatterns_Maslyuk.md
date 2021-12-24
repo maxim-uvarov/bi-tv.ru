@@ -1,6 +1,6 @@
 ---
-title: "BI-TV #33: DAX-антипаттерны с Даниилом Маслюком"
-date: 2021-12-22
+title: "BI-TV #33: Антипаттерны DAX с Даниилом Маслюком 1: Switch"
+date: 2021-12-24
 header:
   og_image: /assets/images/_33.png
 categories:
@@ -8,11 +8,16 @@ categories:
 tags:
   - Power BI
   - DAX
+  - DAX антипаттерны
   - Daniil Maslyuk
   - Maxim Zelenskiy
   - Maxim Uvarov
-description: Switch - пилотный выпуск серии роликов о DAX-антипаттернах с Даниилом Маслюком.
+description: Начинаем серию выпусков “антипаттерны DAX”. Автор серии наш австралийский гуру Power BI [Даниил Маслюк](https://bi-tv.ru/tags/#daniil-maslyuk). В первом выпуске Даниил рассматривает неэффективное использование функции SWITCH.
+
 ---
+Начинаем серию выпусков “антипаттерны DAX”. Автор серии наш австралийский гуру Power BI [Даниил Маслюк](https://bi-tv.ru/tags/#daniil-maslyuk). В первом выпуске Даниил рассматривает неэффективное использование функции SWITCH.
+
+Как эффективно использовать функцию switch смотрите в нашем выпуске. 
 
 [Статья Даниила Маслюка](https://xxlbi.com/blog/single-letter-day-month-names/) об однобуквенных обозначениях месяцев и дней недели.
 
@@ -21,10 +26,6 @@ description: Switch - пилотный выпуск серии роликов о
 А также обязательно загляните к Даниилу в [твиттер](https://twitter.com/DMaslyuk) и на [сайт](https://xxlbi.com). 
 
 
-{% include video id="" provider="youtube" %}
+{% include video id="rYf-NvBV1fs" provider="youtube" %}
 
 P.S. Подписывайтесь на наш телеграм канал: [https://t.me/PowerBIChannel](https://t.me/PowerBIChannel), присоединяйтесь к [группе в facebook](https://www.facebook.com/groups/powerBiForever), вступайте в [телеграм чатик](https://t.me/PBI_Rus/).
-
-<!--  
-<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/XY7qf1wlgyU' frameborder='0' allowfullscreen></iframe></div>
--->  
