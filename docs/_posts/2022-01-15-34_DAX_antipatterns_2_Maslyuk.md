@@ -1,6 +1,6 @@
 ---
 title: "BI-TV #34: Антипаттерны DAX с Даниилом Маслюком 2: SELECTEDVALUE"
-date: 2022-01-15
+date: 2022-01-17
 header:
   og_image: /assets/images/_34.png
 categories:
@@ -20,6 +20,6 @@ description: Во втором выпуске серии “Антипаттер
 Чтобы регулярно читать про классные фишки Power BI, подписывайтесь на [твиттер](https://twitter.com/DMaslyuk) и [сайт](https://xxlbi.com) Даниила.
 
 
-{% include video id="" provider="youtube" %}
+{% include video id="v0uSbFff1lQ" provider="youtube" %}
 
 P.S. Подписывайтесь на наш телеграм канал: [https://t.me/PowerBIChannel](https://t.me/PowerBIChannel), присоединяйтесь к [группе в facebook](https://www.facebook.com/groups/powerBiForever), вступайте в [телеграм чатик](https://t.me/PBI_Rus/).
