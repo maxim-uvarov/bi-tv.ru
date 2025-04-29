@@ -13,7 +13,7 @@ tags:
   - Maxim Zelenskiy
   - Ilya Shelegin
   - Maxim Uvarov
-description: [Максим Зеленский](https://bi-tv.ru/tags/#maxim-zelenskiy) и [Илья Шелегин](https://bi-tv.ru/tags/#ilya-shelegin) структурно рассказывают и показывают, как использовать Power BI calculation groups для динамиеского сравнения произвольно выбранных в визуализации time intellegence метрик.
+description: "[Максим Зеленский](https://bi-tv.ru/tags/#maxim-zelenskiy) и [Илья Шелегин](https://bi-tv.ru/tags/#ilya-shelegin) структурно рассказывают и показывают, как использовать Power BI calculation groups для динамиеского сравнения произвольно выбранных в визуализации time intellegence метрик."
 
 ---
 Максим Зеленсий и Илья Шелегин структурно рассказывают и показывают, как использовать Power BI calculation groups для динамиеского сравнения произвольно выбранных в визуализации time intellegence метрик.
